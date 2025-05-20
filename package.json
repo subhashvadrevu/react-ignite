@@ -13,6 +13,8 @@
   },
   "author": "Subhash",
   "license": "ISC",
+  "repository": "https://github.com/subhashvadrevu/react-ignite",
+  "keywords": [],
   "dependencies": {
     "degit": "^2.8.4",
     "inquirer": "^12.6.1"
