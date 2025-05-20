@@ -1,6 +1,6 @@
 {
-  "name": "create-react-ignite",
-  "version": "1.0.2",
+  "name": "react-ignite",
+  "version": "1.0.0",
   "description": "A react template cli for my projects",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-react-ignite": "./index.js"
+    "react-ignite": "./index.js"
   },
   "author": "Subhash",
   "license": "ISC",

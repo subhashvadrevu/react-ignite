@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-
 import inquirer from "inquirer";
 import * as fs from "fs";
 import { dirname } from "path";
@@ -12,7 +11,7 @@ const CURR_DIR = process.cwd();
 
 const _dirname = dirname(fileURLToPath(import.meta.url));
 
-const CHOICES = JSON.parse(fs.readFileSync(`${_dirname}/templates.json`, 'utf-8'));
+const CHOICES = JSON.parse(fs.readFileSync("./templates.json", 'utf-8'));
 
 const QUESTIONS = [
     {
