@@ -1,6 +1,6 @@
 {
   "name": "react-ignite",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A react template cli for projects",
   "main": "index.js",
   "type": "module",
