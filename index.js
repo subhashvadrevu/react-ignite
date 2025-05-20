@@ -3,7 +3,7 @@
 
 import inquirer from "inquirer";
 import * as fs from "fs";
-import { dirname } from "path";
+import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 import { execSync } from "child_process";
 import degit from "degit";
@@ -12,7 +12,7 @@ const CURR_DIR = process.cwd();
 
 const _dirname = dirname(fileURLToPath(import.meta.url));
 
-const CHOICES = JSON.parse(fs.readFileSync(`${_dirname}/templates.json`, 'utf-8'));
+const CHOICES = JSON.parse(fs.readFileSync(path.resolve(_dirname, "templates.json"), "utf-8"));
 
 const QUESTIONS = [
     {
