@@ -67,11 +67,10 @@ inquirer.prompt(QUESTIONS).then(async(answers) => {
     }
 
     console.log('Installing dependencies...');
-    execSync(`cd ${projectName} && npm install`, { stdio: "inherit" });
-
 
     console.log('Your new project is ready!')
     console.log('To get started, run: ')
     console.log(`   cd ${projectName}`)
+    console.log(`   npm install`)
     console.log(`   npm run dev`)
 })
